@@ -60,7 +60,7 @@ function guardarLocalStore(id, chiste) {
 }
 
 
-/// Función para cargar la lista desde el localStorage
+/// CARGAR LISTA
 function cargarListaLocalStore() {
     const keys = Object.keys(localStorage); 
     keys.forEach((key) => {
